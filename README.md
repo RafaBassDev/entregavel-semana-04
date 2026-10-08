@@ -45,3 +45,5 @@ Neste projeto, o evento de clique é aplicado à lista inteira em vez de adicion
 Quando o usuário clica em um elemento `li`, o JavaScript verifica o alvo do clique e utiliza `classList.toggle()` para adicionar ou remover a classe `feito`.
 
 Essa técnica também permite que novos itens criados dinamicamente pelo JavaScript ou pelo formulário respondam ao mesmo evento sem a necessidade de criar novos listeners.
+
+Além de facilitar o funcionamento de elementos criados dinamicamente, o Event Delegation ajuda a otimizar a performance, pois evita a criação de vários listeners individuais para elementos que pertencem ao mesmo componente.
